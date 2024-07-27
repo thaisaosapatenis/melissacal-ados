@@ -1,0 +1,109 @@
+.cabecalho-imagem {
+    margin: 20;
+    padding: 10px;
+}
+
+.cabecalho {
+    background-color: 
+    color: #F94099;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;pxpadding: 10px;
+
+}
+
+.cabecalho-imagem {
+    width: 100%;
+  padding: 100px 1000px;
+  
+  
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 30px;
+    font-size:10px;
+  
+}
+.titulo{
+  margin: 30px;
+    font-size:50px;
+ }
+
+.subtitulo{
+  margin: 30px;
+  font-size:30px 
+
+}
+
+
+.botao-ver-mais{
+  margin:40px;
+  font-size:17px;
+    background-color: #fabove94099; 
+    transform: scale(1.2);
+  border-radius: 9px;
+  color:#F94099;
+ background-color:hover: #FF0077
+}
+
+  
+.texto-dois{
+  margin: 30px;
+  font-size:20px;
+  border-radius: 5px;
+
+}
+  
+
+.rodape{
+  margin: 0px;
+  font-size:19px;
+  padding: 10px 30px;
+}
+body{
+  background-image:linear-gradient(#F83F98,#F83F98, #F83F98,#DF1674,#CE0965,#B10756 );
+}
+
+/* Estilo para o checkbox que será usado como botão */
+input[type="checkbox"] {
+display: none; /* Esconde o checkbox da visualização */
+}
+
+/* Estilo para o label que será o botão */
+label {
+display: inline-block; /* Exibe o label como bloco em linha */
+background-color: #FFFFFF; /* Define a cor de fundo do label como azul */
+color: #D600AC; /* Define a cor do texto do label como branco */
+padding: 10px 20px; /* Adiciona espaçamento interno ao label */
+cursor: pointer; /* Muda o cursor para um ponteiro ao passar o mouse sobre o label */
+border-radius: 5px; /* Adiciona bordas arredondadas ao label */
+}
+
+/* Estilo para a lista, que ficará oculta inicialmente */
+ul {
+display: none; /* Esconde a lista inicialmente */
+margin-top: 10px; /* Adiciona margem superior à lista */
+padding-left: 20px; /* Adiciona espaçamento à esquerda da lista */
+}
+
+/* Quando o checkbox estiver marcado, exibe a lista */
+input[type="checkbox"]:checked + label + ul {
+display: block; /* Exibe a lista quando o checkbox está marcado */
+}
+
+/* Estilo para os links da lista */
+ul li a {
+color: #FFFFFF; /* Define a cor dos links como azul */
+text-decoration: none; /* Remove a sublinha dos links */
+}
+
+/* Estilo para os links ao passar o mouse */
+ul li a:hover {
+text-decoration: underline; /* Adiciona sublinha aos links ao passar o mouse */
+}
+
+.imagem{
+    width: 100%;
+  padding: 100px 1000px;  
+}
